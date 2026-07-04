@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+nav{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.navJugo {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	
+
+	
+}
+
+.navJugo li {
+	margin: 30px;
+}
+
+
+
+.login{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+h1, h2{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	
+	
+	
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 15px;
+  border: 1px solid grey;
+  gap: 10px;
+  padding: 10px;
+  width: 20%;
+}
+
+
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+
+img {
+	height: 80px;
+	width: 100px;
+	
+}
+
+label {
+  margin-top: 10px;
+}
+
+
+
+.error {
+  color: #fc4b37;
+}
+
+.btn a{
+	display: flex;
+}
+
